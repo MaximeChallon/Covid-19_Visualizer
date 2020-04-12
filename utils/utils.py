@@ -6,6 +6,11 @@ import pandas as pd
 from .constantes import *
 
 def load_data():
+    """
+    Create a single dataFrame with the for datasets of John Hopkins University
+    :return: dataset with all the data
+    :rtype: DataFrame
+    """
     # gestion des données globales (hors US)
     def unzip_data_global(path, header):
         os.system('wget ' + path)
