@@ -4,6 +4,7 @@ import os
 import csv
 import pandas as pd
 from .constantes import *
+import datetime
 
 def load_data():
     """
@@ -87,10 +88,15 @@ def load_data():
 
     # DataFrame pandas pour chaque indicateur
     data_deaths_global = unzip_data_global(DATA_DEATHS_GLOBAL, 'Deaths')
+    data_deaths_global['Date'] = pd.to_datetime(data_deaths_global["Date"], errors="coerce")
     data_confirmed_global = unzip_data_global(DATA_CONFIRMED_GLOBAL, 'Confirmed')
+    data_confirmed_global['Date'] = pd.to_datetime(data_confirmed_global["Date"], errors="coerce")
     data_recovered_global = unzip_data_global(DATA_RECOVERED_GLOBAL, 'Recovered')
+    data_recovered_global['Date'] = pd.to_datetime(data_recovered_global["Date"], errors="coerce")
     data_deaths_US = unzip_data_US(DATA_DEATHS_US, 'Deaths')
+    data_deaths_US['Date'] = pd.to_datetime(data_deaths_US["Date"], errors="coerce")
     data_confirmed_US = unzip_data_US(DATA_CONFIRMED_US, 'Confirmed')
+    data_confirmed_US['Date'] = pd.to_datetime(data_confirmed_US["Date"], errors="coerce")
 
     # jointures entre les différentes sets de données
     data_merge_g1 = pd.merge(data_deaths_global, data_confirmed_global, on=['Country','Province', 'Date'], how='inner')
