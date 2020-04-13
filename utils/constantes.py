@@ -1,6 +1,23 @@
-# datasets from John Hopkins University
-DATA_DEATHS_GLOBAL = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
-DATA_DEATHS_US = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv'
-DATA_CONFIRMED_GLOBAL = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
-DATA_CONFIRMED_US = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv'
-DATA_RECOVERED_GLOBAL = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
+from datetime import date
+import datetime
+import os
+
+# dataset
+try:
+    yesterday = date.today() - datetime.timedelta(1)
+    Date = yesterday.strftime("%m_%d_%y")
+    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
+    os.system('wget ' + DATA)
+    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
+except:
+    Today = date.today()
+    Date = Today.strftime("%m_%d_%y")
+    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
+    os.system('wget ' + DATA)
+    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
+finally:
+    yesterday2 = date.today() - datetime.timedelta(2)
+    Date = yesterday2.strftime("%m_%d_%y")
+    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
+    os.system('wget ' + DATA)
+    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
