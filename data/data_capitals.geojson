@@ -1,0 +1,1968 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "properties": {
+            "country": "Bangladesh",
+            "city": "Dhaka"},
+        "geometry": {
+            "coordinates": [23.43, 90.24],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Belgium",
+            "city": "Brussels"},
+        "geometry": {
+            "coordinates": [50.5, 4.2],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Burkina Faso",
+            "city": "Ouagadougou"},
+        "geometry": {
+            "coordinates": [12.22, -1.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bulgaria",
+            "city": "Sofia"},
+        "geometry": {
+            "coordinates": [42.41, 23.19],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bosnia and Herzegovina",
+            "city": "Sarajevo"},
+        "geometry": {
+            "coordinates": [43.52, 18.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Barbados",
+            "city": "Bridgetown"},
+        "geometry": {
+            "coordinates": [13.06, -59.37],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Wallis and Futuna",
+            "city": "Mata-Utu"},
+        "geometry": {
+            "coordinates": [-13.57, -171.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Barthelemy",
+            "city": "Gustavia"},
+        "geometry": {
+            "coordinates": [17.53, -62.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bermuda",
+            "city": "Hamilton"},
+        "geometry": {
+            "coordinates": [32.17, -64.47],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Brunei",
+            "city": "Bandar Seri Begawan"},
+        "geometry": {
+            "coordinates": [4.53, 114.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bolivia",
+            "city": "La Paz"},
+        "geometry": {
+            "coordinates": [-16.3, -68.09],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bahrain",
+            "city": "Manama"},
+        "geometry": {
+            "coordinates": [26.14, 50.34],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Burundi",
+            "city": "Bujumbura"},
+        "geometry": {
+            "coordinates": [-3.22, 29.21],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Benin",
+            "city": "Porto-Novo"},
+        "geometry": {
+            "coordinates": [6.29, 2.37],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bhutan",
+            "city": "Thimphu"},
+        "geometry": {
+            "coordinates": [27.29, 89.36],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Jamaica",
+            "city": "Kingston"},
+        "geometry": {
+            "coordinates": [18, -76.48],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bouvet Island",
+            "tld": "bv",
+            "iso3": "BVT",
+            "iso2": "BV"
+        },
+        "geometry": {
+            "coordinates": [-54.26, 3.24],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Botswana",
+            "city": "Gaborone"},
+        "geometry": {
+            "coordinates": [-24.45, 25.55],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Samoa",
+            "city": "Apia"},
+        "geometry": {
+            "coordinates": [-13.5, -171.44],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Brazil",
+            "city": "Brasilia"},
+        "geometry": {
+            "coordinates": [-15.47, -47.55],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Bahamas",
+            "city": "Nassau"},
+        "geometry": {
+            "coordinates": [25.05, -77.21],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Jersey",
+            "city": "Saint Helier"},
+        "geometry": {
+            "coordinates": [49.11, -2.06],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Belarus",
+            "city": "Minsk"},
+        "geometry": {
+            "coordinates": [53.54, 27.34],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Belize",
+            "city": "Belmopan"},
+        "geometry": {
+            "coordinates": [17.15, -88.46],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Russia",
+            "city": "Moscow"},
+        "geometry": {
+            "coordinates": [55.45, 37.35],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Rwanda",
+            "city": "Kigali"},
+        "geometry": {
+            "coordinates": [-1.57, 30.04],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Serbia",
+            "city": "Belgrade"},
+        "geometry": {
+            "coordinates": [44.5, 20.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Timor-Leste",
+            "city": "Dili"},
+        "geometry": {
+            "coordinates": [-8.35, 125.36],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Turkmenistan",
+            "city": "Ashgabat"},
+        "geometry": {
+            "coordinates": [37.57, 58.23],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Tajikistan",
+            "city": "Dushanbe"},
+        "geometry": {
+            "coordinates": [38.35, 68.48],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Romania",
+            "city": "Bucharest"},
+        "geometry": {
+            "coordinates": [44.26, 26.06],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Tokelau",
+            "tld": "tk",
+            "iso3": "TKL",
+            "iso2": "TK"
+        },
+        "geometry": {
+            "coordinates": [-9, -172],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Guinea-Bissau",
+            "city": "Bissau"},
+        "geometry": {
+            "coordinates": [11.51, -15.35],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Guam",
+            "city": "Hagatna"},
+        "geometry": {
+            "coordinates": [13.28, 144.44],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Guatemala",
+            "city": "Guatemala City"},
+        "geometry": {
+            "coordinates": [14.37, -90.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Greece",
+            "city": "Athens"},
+        "geometry": {
+            "coordinates": [37.59, 23.44],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Equatorial Guinea",
+            "city": "Malabo"},
+        "geometry": {
+            "coordinates": [3.45, 8.47],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Japan",
+            "city": "Tokyo"},
+        "geometry": {
+            "coordinates": [35.41, 139.45],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Guyana",
+            "city": "Georgetown"},
+        "geometry": {
+            "coordinates": [6.48, -58.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Guernsey",
+            "city": "Saint Peter Port"},
+        "geometry": {
+            "coordinates": [49.27, -2.32],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Georgia",
+            "city": "T'bilisi"},
+        "geometry": {
+            "coordinates": [41.43, 44.47],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Grenada",
+            "city": "Saint George's"},
+        "geometry": {
+            "coordinates": [12.03, -61.45],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "United Kingdom",
+            "city": "London"},
+        "geometry": {
+            "coordinates": [51.3, -0.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Gabon",
+            "city": "Libreville"},
+        "geometry": {
+            "coordinates": [0.23, 9.27],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "El Salvador",
+            "city": "San Salvador"},
+        "geometry": {
+            "coordinates": [13.42, -89.12],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Guinea",
+            "city": "Conakry"},
+        "geometry": {
+            "coordinates": [9.33, -13.42],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Gambia",
+            "city": "Banjul"},
+        "geometry": {
+            "coordinates": [13.27, -16.34],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Greenland",
+            "city": "Nuuk"},
+        "geometry": {
+            "coordinates": [64.11, -51.45],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Gibraltar",
+            "city": "Gibraltar"},
+        "geometry": {
+            "coordinates": [36.08, -5.21],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Ghana",
+            "city": "Accra"},
+        "geometry": {
+            "coordinates": [5.33, -0.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Oman",
+            "city": "Muscat"},
+        "geometry": {
+            "coordinates": [23.37, 58.35],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Tunisia",
+            "city": "Tunis"},
+        "geometry": {
+            "coordinates": [36.48, 10.11],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Jordan",
+            "city": "Amman"},
+        "geometry": {
+            "coordinates": [31.57, 35.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Croatia",
+            "city": "Zagreb"},
+        "geometry": {
+            "coordinates": [45.48, 16],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Haiti",
+            "city": "Port-au-Prince"},
+        "geometry": {
+            "coordinates": [18.32, -72.2],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Hungary",
+            "city": "Budapest"},
+        "geometry": {
+            "coordinates": [47.3, 19.05],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Hong Kong",
+            "city": "Hong Kong"},
+        "geometry": {
+            "coordinates": [22.15, 114.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Honduras",
+            "city": "Tegucigalpa"},
+        "geometry": {
+            "coordinates": [14.06, -87.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Heard Island and McDonald Islands",
+            "tld": "hm",
+            "iso3": "HMD",
+            "iso2": "HM"
+        },
+        "geometry": {
+            "coordinates": [-53.06, 72.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Venezuela",
+            "city": "Caracas"},
+        "geometry": {
+            "coordinates": [10.3, -66.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Puerto Rico",
+            "city": "San Juan"},
+        "geometry": {
+            "coordinates": [18.28, -66.07],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Palestinian Territory",
+            "tld": "ps",
+            "iso3": "PSE",
+            "iso2": "PS"
+        },
+        "geometry": {
+            "coordinates": [31.25, 34.2],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Palau",
+            "city": "Melekeok"},
+        "geometry": {
+            "coordinates": [7.29, 134.38],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Portugal",
+            "city": "Lisbon"},
+        "geometry": {
+            "coordinates": [38.43, -9.08],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Svalbard",
+            "city": "Longyearbyen"},
+        "geometry": {
+            "coordinates": [78.13, 15.33],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Paraguay",
+            "city": "Asuncion"},
+        "geometry": {
+            "coordinates": [-25.16, -57.4],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Iraq",
+            "city": "Baghdad"},
+        "geometry": {
+            "coordinates": [33.2, 44.23],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Panama",
+            "city": "Panama City"},
+        "geometry": {
+            "coordinates": [8.58, -79.32],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "French Polynesia",
+            "city": "Papeete"},
+        "geometry": {
+            "coordinates": [-17.32, -149.34],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Papua New Guinea",
+            "city": "Port Moresby"},
+        "geometry": {
+            "coordinates": [-9.3, 147.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Peru",
+            "city": "Lima"},
+        "geometry": {
+            "coordinates": [-12.03, -77.03],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Pakistan",
+            "city": "Islamabad"},
+        "geometry": {
+            "coordinates": [33.42, 73.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Philippines",
+            "city": "Manila"},
+        "geometry": {
+            "coordinates": [14.35, 121],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Pitcairn",
+            "city": "Adamstown"},
+        "geometry": {
+            "coordinates": [-25.04, -130.05],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Poland",
+            "city": "Warsaw"},
+        "geometry": {
+            "coordinates": [52.15, 21],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Pierre and Miquelon",
+            "city": "Saint-Pierre"},
+        "geometry": {
+            "coordinates": [46.46, -56.11],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Zambia",
+            "city": "Lusaka"},
+        "geometry": {
+            "coordinates": [-15.25, 28.17],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Western Sahara",
+            "tld": "eh",
+            "iso3": "ESH",
+            "iso2": "EH"
+        },
+        "geometry": {
+            "coordinates": [24.3, -13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Estonia",
+            "city": "Tallinn"},
+        "geometry": {
+            "coordinates": [59.26, 24.43],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Egypt",
+            "city": "Cairo"},
+        "geometry": {
+            "coordinates": [30.03, 31.15],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "South Africa",
+            "city": "Pretoria"},
+        "geometry": {
+            "coordinates": [-25.42, 28.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Ecuador",
+            "city": "Quito"},
+        "geometry": {
+            "coordinates": [-0.13, -78.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Italy",
+            "city": "Rome"},
+        "geometry": {
+            "coordinates": [41.54, 12.29],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Vietnam",
+            "city": "Hanoi"},
+        "geometry": {
+            "coordinates": [21.02, 105.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Solomon Islands",
+            "city": "Honiara"},
+        "geometry": {
+            "coordinates": [-9.26, 159.57],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "European Union",
+            "tld": "eu",
+            "iso3": "N/A",
+            "iso2": "EU"
+        },
+        "geometry": {
+            "coordinates": [50.1021, 9.9],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Ethiopia",
+            "city": "Addis Ababa"},
+        "geometry": {
+            "coordinates": [9.02, 38.42],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Somalia",
+            "city": "Mogadishu"},
+        "geometry": {
+            "coordinates": [2.04, 45.22],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Zimbabwe",
+            "city": "Harare"},
+        "geometry": {
+            "coordinates": [-17.5, 31.03],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saudi Arabia",
+            "city": "Riyadh"},
+        "geometry": {
+            "coordinates": [24.38, 46.43],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Spain",
+            "city": "Madrid"},
+        "geometry": {
+            "coordinates": [40.24, -3.41],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Eritrea",
+            "city": "Asmara"},
+        "geometry": {
+            "coordinates": [15.2, 38.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Montenegro",
+            "city": "Podgorica"},
+        "geometry": {
+            "coordinates": [42.26, 19.16],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Moldova",
+            "city": "Chisinau"},
+        "geometry": {
+            "coordinates": [47, 28.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Madagascar",
+            "city": "Antananarivo"},
+        "geometry": {
+            "coordinates": [-18.55, 47.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Martin",
+            "city": "Marigot"},
+        "geometry": {
+            "coordinates": [18.04, -63.05],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Morocco",
+            "city": "Rabat"},
+        "geometry": {
+            "coordinates": [34.01, -6.49],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Monaco",
+            "city": "Monaco"},
+        "geometry": {
+            "coordinates": [43.44, 7.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Uzbekistan",
+            "city": "Tashkent"},
+        "geometry": {
+            "coordinates": [41.2, 69.18],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Myanmar",
+            "city": "Rangoon"},
+        "geometry": {
+            "coordinates": [16.48, 96.09],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mali",
+            "city": "Bamako"},
+        "geometry": {
+            "coordinates": [12.39, -8],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Macao",
+            "tld": "mo",
+            "iso3": "MAC",
+            "iso2": "MO"
+        },
+        "geometry": {
+            "coordinates": [22.1, 113.33],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mongolia",
+            "city": "Ulaanbaatar"},
+        "geometry": {
+            "coordinates": [47.55, 106.55],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Marshall Islands",
+            "city": "Majuro"},
+        "geometry": {
+            "coordinates": [7.06, 171.23],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Macedonia",
+            "city": "Skopje"},
+        "geometry": {
+            "coordinates": [42, 21.26],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mauritius",
+            "city": "Port Louis"},
+        "geometry": {
+            "coordinates": [-20.09, 57.29],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Malta",
+            "city": "Valletta"},
+        "geometry": {
+            "coordinates": [35.53, 14.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Malawi",
+            "city": "Lilongwe"},
+        "geometry": {
+            "coordinates": [-13.59, 33.47],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Maldives",
+            "city": "Male"},
+        "geometry": {
+            "coordinates": [4.1, 73.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Northern Mariana Islands",
+            "city": "Saipan"},
+        "geometry": {
+            "coordinates": [15.12, 145.45],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Montserrat",
+            "city": "Plymouth"},
+        "geometry": {
+            "coordinates": [16.42, -62.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mauritania",
+            "city": "Nouakchott"},
+        "geometry": {
+            "coordinates": [18.07, -16.02],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Isle of Man",
+            "city": "Douglas"},
+        "geometry": {
+            "coordinates": [54.09, -4.29],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Uganda",
+            "city": "Kampala"},
+        "geometry": {
+            "coordinates": [0.19, 32.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Malaysia",
+            "city": "Kuala Lumpur"},
+        "geometry": {
+            "coordinates": [3.1, 101.42],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mexico",
+            "city": "Mexico City"},
+        "geometry": {
+            "coordinates": [19.26, -99.08],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Israel",
+            "city": "Jerusalem"},
+        "geometry": {
+            "coordinates": [31.46, 35.14],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "France",
+            "city": "Paris"},
+        "geometry": {
+            "coordinates": [48.52, 2.2],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "British Indian Ocean Territory",
+            "tld": "io",
+            "iso3": "IOT",
+            "iso2": "IO"
+        },
+        "geometry": {
+            "coordinates": [-6, 71.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Helena Ascension and Tristan da Cunha",
+            "city": "Jamestown"},
+        "geometry": {
+            "coordinates": [-15.56, -5.44],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Finland",
+            "city": "Helsinki"},
+        "geometry": {
+            "coordinates": [60.1, 24.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Fiji",
+            "city": "Suva"},
+        "geometry": {
+            "coordinates": [-18.08, 178.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Falkland Islands",
+            "city": "Stanley"},
+        "geometry": {
+            "coordinates": [-51.42, -57.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Micronesia",
+            "city": "Palikir"},
+        "geometry": {
+            "coordinates": [6.55, 158.09],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Faroe Islands",
+            "city": "Torshavn"},
+        "geometry": {
+            "coordinates": [62.01, -6.46],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Nicaragua",
+            "city": "Managua"},
+        "geometry": {
+            "coordinates": [12.09, -86.17],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Netherlands",
+            "city": "Amsterdam"},
+        "geometry": {
+            "coordinates": [52.23, 4.54],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Norway",
+            "city": "Oslo"},
+        "geometry": {
+            "coordinates": [59.55, 10.45],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Namibia",
+            "city": "Windhoek"},
+        "geometry": {
+            "coordinates": [-22.34, 17.05],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Vanuatu",
+            "city": "Port-Vila"},
+        "geometry": {
+            "coordinates": [-17.44, 168.19],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "New Caledonia",
+            "city": "Noumea"},
+        "geometry": {
+            "coordinates": [-22.16, 166.27],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Niger",
+            "city": "Niamey"},
+        "geometry": {
+            "coordinates": [13.31, 2.07],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Norfolk Island",
+            "city": "Kingston"},
+        "geometry": {
+            "coordinates": [-29.03, 167.58],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Nigeria",
+            "city": "Abuja"},
+        "geometry": {
+            "coordinates": [9.05, 7.32],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "New Zealand",
+            "city": "Wellington"},
+        "geometry": {
+            "coordinates": [-41.28, 174.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Nepal",
+            "city": "Kathmandu"},
+        "geometry": {
+            "coordinates": [27.43, 85.19],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Nauru",
+            "tld": "nr",
+            "iso3": "NRU",
+            "iso2": "NR"
+        },
+        "geometry": {
+            "coordinates": [-0.32, 166.55],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Niue",
+            "city": "Alofi"},
+        "geometry": {
+            "coordinates": [-19.01, -169.55],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cook Islands",
+            "city": "Avarua"},
+        "geometry": {
+            "coordinates": [-21.12, -159.46],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Ivory Coast",
+            "city": "Yamoussoukro"},
+        "geometry": {
+            "coordinates": [6.49, -5.17],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Switzerland",
+            "city": "Bern"},
+        "geometry": {
+            "coordinates": [46.57, 7.26],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Colombia",
+            "city": "Bogota"},
+        "geometry": {
+            "coordinates": [4.36, -74.05],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "China",
+            "city": "Beijing"},
+        "geometry": {
+            "coordinates": [39.55, 116.23],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cameroon",
+            "city": "Yaounde"},
+        "geometry": {
+            "coordinates": [3.52, 11.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Chile",
+            "city": "Santiago"},
+        "geometry": {
+            "coordinates": [-33.27, -70.4],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cocos Islands",
+            "city": "West Island"},
+        "geometry": {
+            "coordinates": [-12.1, 96.5],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Canada",
+            "city": "Ottawa"},
+        "geometry": {
+            "coordinates": [45.25, -75.42],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Congo Republic",
+            "city": "Brazzaville"},
+        "geometry": {
+            "coordinates": [-4.15, 15.17],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Central African Republic",
+            "city": "Bangui"},
+        "geometry": {
+            "coordinates": [4.22, 18.35],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Congo Democratic Republic",
+            "city": "Kinshasa"},
+        "geometry": {
+            "coordinates": [-4.19, 15.18],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Czech Republic",
+            "city": "Prague"},
+        "geometry": {
+            "coordinates": [50.05, 14.28],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cyprus",
+            "city": "Nicosia"},
+        "geometry": {
+            "coordinates": [35.1, 33.22],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Christmas Island",
+            "city": "The Settlement"},
+        "geometry": {
+            "coordinates": [-10.25, 105.43],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Costa Rica",
+            "city": "San Jose"},
+        "geometry": {
+            "coordinates": [9.56, -84.05],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cape Verde",
+            "city": "Praia"},
+        "geometry": {
+            "coordinates": [14.55, -23.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cuba",
+            "city": "Havana"},
+        "geometry": {
+            "coordinates": [23.07, -82.21],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Swaziland",
+            "city": "Mbabane"},
+        "geometry": {
+            "coordinates": [-26.18, 31.06],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Syria",
+            "city": "Damascus"},
+        "geometry": {
+            "coordinates": [33.3, 36.18],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Kyrgyzstan",
+            "city": "Bishkek"},
+        "geometry": {
+            "coordinates": [42.52, 74.36],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Kenya",
+            "city": "Nairobi"},
+        "geometry": {
+            "coordinates": [-1.17, 36.49],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Suriname",
+            "city": "Paramaribo"},
+        "geometry": {
+            "coordinates": [5.5, -55.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Kiribati",
+            "city": "Tarawa"},
+        "geometry": {
+            "coordinates": [1.19, 172.58],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cambodia",
+            "city": "Phnom Penh"},
+        "geometry": {
+            "coordinates": [11.33, 104.55],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Kitts and Nevis",
+            "city": "Basseterre"},
+        "geometry": {
+            "coordinates": [17.18, -62.43],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Comoros",
+            "city": "Moroni"},
+        "geometry": {
+            "coordinates": [-11.42, 43.14],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Sao Tome and Principe",
+            "city": "Sao Tome"},
+        "geometry": {
+            "coordinates": [0.12, 6.39],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Slovakia",
+            "city": "Bratislava"},
+        "geometry": {
+            "coordinates": [48.09, 17.07],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Korea South",
+            "city": "Seoul"},
+        "geometry": {
+            "coordinates": [37.33, 126.59],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Slovenia",
+            "city": "Ljubljana"},
+        "geometry": {
+            "coordinates": [46.03, 14.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Korea North",
+            "city": "Pyongyang"},
+        "geometry": {
+            "coordinates": [39.01, 125.45],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Kuwait",
+            "city": "Kuwait City"},
+        "geometry": {
+            "coordinates": [29.22, 47.58],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Senegal",
+            "city": "Dakar"},
+        "geometry": {
+            "coordinates": [14.4, -17.26],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "San Marino",
+            "city": "San Marino"},
+        "geometry": {
+            "coordinates": [43.56, 12.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Sierra Leone",
+            "city": "Freetown"},
+        "geometry": {
+            "coordinates": [8.3, -13.15],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Seychelles",
+            "city": "Victoria"},
+        "geometry": {
+            "coordinates": [-4.38, 55.27],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Kazakhstan",
+            "city": "Astana"},
+        "geometry": {
+            "coordinates": [51.1, 71.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Cayman Islands",
+            "city": "George Town"},
+        "geometry": {
+            "coordinates": [19.18, -81.23],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Singapore",
+            "city": "Singapore"},
+        "geometry": {
+            "coordinates": [1.17, 103.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Sweden",
+            "city": "Stockholm"},
+        "geometry": {
+            "coordinates": [59.2, 18.03],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Sudan",
+            "city": "Khartoum"},
+        "geometry": {
+            "coordinates": [15.36, 32.32],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Dominican Republic",
+            "city": "Santo Domingo"},
+        "geometry": {
+            "coordinates": [18.28, -69.54],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Dominica",
+            "city": "Roseau"},
+        "geometry": {
+            "coordinates": [15.18, -61.24],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Djibouti",
+            "city": "Djibouti"},
+        "geometry": {
+            "coordinates": [11.35, 43.09],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Denmark",
+            "city": "Copenhagen"},
+        "geometry": {
+            "coordinates": [55.4, 12.35],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "British Virgin Islands",
+            "city": "Road Town"},
+        "geometry": {
+            "coordinates": [18.27, -64.37],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Germany",
+            "city": "Berlin"},
+        "geometry": {
+            "coordinates": [52.31, 13.24],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Yemen",
+            "city": "Sanaa"},
+        "geometry": {
+            "coordinates": [15.21, 44.12],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Algeria",
+            "city": "Algiers"},
+        "geometry": {
+            "coordinates": [36.45, 3.03],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "United States",
+            "city": "Washington, DC"},
+        "geometry": {
+            "coordinates": [38.53, -77.02],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Uruguay",
+            "city": "Montevideo"},
+        "geometry": {
+            "coordinates": [-34.53, -56.11],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mayotte",
+            "city": "Mamoudzou"},
+        "geometry": {
+            "coordinates": [-12.46, 45.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Lebanon",
+            "city": "Beirut"},
+        "geometry": {
+            "coordinates": [33.52, 35.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Lucia",
+            "city": "Castries"},
+        "geometry": {
+            "coordinates": [14.01, -61],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Laos",
+            "city": "Vientiane"},
+        "geometry": {
+            "coordinates": [17.58, 102.36],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Tuvalu",
+            "city": "Funafuti"},
+        "geometry": {
+            "coordinates": [-8.3, 179.12],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Taiwan",
+            "city": "Taipei"},
+        "geometry": {
+            "coordinates": [25.03, 121.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Trinidad and Tobago",
+            "city": "Port-of-Spain"},
+        "geometry": {
+            "coordinates": [10.39, -61.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Turkey",
+            "city": "Ankara"},
+        "geometry": {
+            "coordinates": [39.56, 32.52],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Sri Lanka",
+            "city": "Colombo"},
+        "geometry": {
+            "coordinates": [6.56, 79.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Liechtenstein",
+            "city": "Vaduz"},
+        "geometry": {
+            "coordinates": [47.08, 9.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Latvia",
+            "city": "Riga"},
+        "geometry": {
+            "coordinates": [56.57, 24.06],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Tonga",
+            "city": "Nuku'alofa"},
+        "geometry": {
+            "coordinates": [-21.08, -175.12],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Lithuania",
+            "city": "Vilnius"},
+        "geometry": {
+            "coordinates": [54.41, 25.19],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Luxembourg",
+            "city": "Luxembourg"},
+        "geometry": {
+            "coordinates": [49.36, 6.07],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Liberia",
+            "city": "Monrovia"},
+        "geometry": {
+            "coordinates": [6.18, -10.48],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Lesotho",
+            "city": "Maseru"},
+        "geometry": {
+            "coordinates": [-29.19, 27.29],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Thailand",
+            "city": "Bangkok"},
+        "geometry": {
+            "coordinates": [13.45, 100.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "French Southern Territories",
+            "tld": "tf",
+            "iso3": "ATF",
+            "iso2": "TF"
+        },
+        "geometry": {
+            "coordinates": [-37.5, 77.32],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Togo",
+            "city": "Lome"},
+        "geometry": {
+            "coordinates": [6.08, 1.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Chad",
+            "city": "N'Djamena"},
+        "geometry": {
+            "coordinates": [12.06, 15.02],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Turks and Caicos Islands",
+            "city": "Grand Turk"},
+        "geometry": {
+            "coordinates": [21.28, -71.08],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Libya",
+            "city": "Tripoli"},
+        "geometry": {
+            "coordinates": [32.53, 13.1],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Holy See",
+            "city": "Vatican City"},
+        "geometry": {
+            "coordinates": [41.54, 12.27],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Saint Vincent and the Grenadines",
+            "city": "Kingstown"},
+        "geometry": {
+            "coordinates": [13.09, -61.14],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "United Arab Emirates",
+            "city": "Abu Dhabi"},
+        "geometry": {
+            "coordinates": [24.28, 54.22],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Andorra",
+            "city": "Andorra la Vella"},
+        "geometry": {
+            "coordinates": [42.3, 1.31],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Antigua and Barbuda",
+            "city": "Saint John's"},
+        "geometry": {
+            "coordinates": [17.07, -61.51],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Afghanistan",
+            "city": "Kabul"},
+        "geometry": {
+            "coordinates": [34.31, 69.11],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Anguilla",
+            "city": "The Valley"},
+        "geometry": {
+            "coordinates": [18.13, -63.03],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Virgin Islands",
+            "city": "Charlotte Amalie"},
+        "geometry": {
+            "coordinates": [18.21, -64.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Iceland",
+            "city": "Reykjavik"},
+        "geometry": {
+            "coordinates": [64.09, -21.57],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Iran",
+            "city": "Tehran"},
+        "geometry": {
+            "coordinates": [35.4, 51.25],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Armenia",
+            "city": "Yerevan"},
+        "geometry": {
+            "coordinates": [40.1, 44.3],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Albania",
+            "city": "Tirana"},
+        "geometry": {
+            "coordinates": [41.19, 19.49],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Angola",
+            "city": "Luanda"},
+        "geometry": {
+            "coordinates": [-8.5, 13.14],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Netherlands Antilles",
+            "city": "Willemstad"},
+        "geometry": {
+            "coordinates": [12.06, -68.56],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Antarctica",
+            "tld": "aq",
+            "iso3": "ATA",
+            "iso2": "AQ"
+        },
+        "geometry": {
+            "coordinates": [-90, 0],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Asia &amp; Pacific",
+            "tld": "asia",
+            "iso3": "N/A",
+            "iso2": "AP"
+        },
+        "geometry": {
+            "coordinates": [0, 0],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "American Samoa",
+            "city": "Pago Pago"},
+        "geometry": {
+            "coordinates": [-14.16, -170.42],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Argentina",
+            "city": "Buenos Aires"},
+        "geometry": {
+            "coordinates": [-34.36, -58.4],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Australia",
+            "city": "Canberra"},
+        "geometry": {
+            "coordinates": [-35.17, 149.13],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Austria",
+            "city": "Vienna"},
+        "geometry": {
+            "coordinates": [48.12, 16.22],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Aruba",
+            "city": "Oranjestad"},
+        "geometry": {
+            "coordinates": [12.31, -70.02],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "India",
+            "city": "New Delhi"},
+        "geometry": {
+            "coordinates": [28.36, 77.12],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Tanzania",
+            "city": "Dar es Salaam"},
+        "geometry": {
+            "coordinates": [-6.48, 39.17],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Azerbaijan",
+            "city": "Baku"},
+        "geometry": {
+            "coordinates": [40.23, 49.52],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Ireland",
+            "city": "Dublin"},
+        "geometry": {
+            "coordinates": [53.19, -6.14],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Indonesia",
+            "city": "Jakarta"},
+        "geometry": {
+            "coordinates": [-6.1, 106.49],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Ukraine",
+            "city": "Kiew"},
+        "geometry": {
+            "coordinates": [50.441, 30.554],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Qatar",
+            "city": "Doha"},
+        "geometry": {
+            "coordinates": [25.17, 51.32],
+            "type": "Point"
+        }
+    }, {
+        "properties": {
+            "country": "Mozambique",
+            "city": "Maputo"},
+        "geometry": {
+            "coordinates": [-25.57, 32.35],
+            "type": "Point"
+        }
+    }]
+}
