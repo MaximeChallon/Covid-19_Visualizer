@@ -80,5 +80,6 @@ def load_data():
                          'change_deaths' : 'Percent_Change_deaths'},
                 inplace=True)
 
-    data.to_csv('data_pret.csv')
+    # jointures avec les métadonnées
+    data = pd.merge(data, get_countries_metadata(), on="Country",how="left")
     return data
