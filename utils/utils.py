@@ -50,9 +50,10 @@ def get_countries_metadata():
     Récupère des données auxiliaires des pays
     :return: retourne un dataframe prêt à subir une left join avec le dataframe de load_data
     """
-    gps = pd.read_csv('data/data_pays_gps.csv')
-    pop = pd.read_csv('data/data_population.csv')
-    metadata = pd.merge(gps, pop, on="Country", how="inner")
+    # pour mettre les gps dans le dataframe, décommenter les deux lignes suivantes. Attention, ça mange de la RAM
+    #gps = pd.read_csv('data/data_pays_gps.csv')
+    metadata = pd.read_csv('data/data_population.csv')
+    #metadata = pd.merge(gps, pop, on="Country", how="inner")
 
     return metadata
 
@@ -80,6 +81,38 @@ def load_data():
                          'change_deaths' : 'Percent_Change_deaths'},
                 inplace=True)
 
+    # remplacement des noms de pays incorrects
+    noms_normalises = {
+        "Republic of Korea": "South Korea",
+        "Korea. South": "South Korea",
+        "Holy See": "Vatican City",
+        "Iran (Islamic Republic of)": "Iran",
+        "Viet Nam": "Vietnam",
+        "Taipei and environs": "Taiwan",
+        "Republic of Moldova": "Moldova",
+        "Russian Federaration": "Russia",
+        "Taiwan*": "Taiwan",
+        "occupied Palestinian territory": "Palestine",
+        "West Bank and Gaza": "Palestine",
+        "Bahamas, The": "Bahamas",
+        "Cote d'Ivoire": "Ivory Coast",
+        "Gambia, The": "Gambia",
+        "US": "United States",
+        "Cabo Verde": "Cape Verde",
+        "Timor Leste": "East Timor",
+        "Vatican": "Vatican City",
+        "Democratic Republic of the Congo": "Congo (Kinshasa)",
+        "Republic of the Congo": "Congo (Brazzaville)"
+    }
+    for nom in noms_normalises:
+        data.replace(nom, noms_normalises[nom], inplace=True)
+
     # jointures avec les métadonnées
     data = pd.merge(data, get_countries_metadata(), on="Country",how="left")
+    # calculs par rapport aux populations
+    data['New_Cases_per_10000'] = data['New_Cases'] * 10000 / data['Population']
+    data['Cases_per_10000'] = data['Cases'] * 10000 / data['Population']
+    data['New_Deaths_per_10000'] = data['New_Deaths'] * 10000 / data['Population']
+    data['Deaths_per_10000'] = data['Deaths'] * 10000 / data['Population']
+
     return data
