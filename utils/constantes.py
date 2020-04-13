@@ -15,9 +15,3 @@ except:
     DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
     os.system('wget ' + DATA)
     DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
-finally:
-    yesterday2 = date.today() - datetime.timedelta(2)
-    Date = yesterday2.strftime("%m_%d_%y")
-    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
-    os.system('wget ' + DATA)
-    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
