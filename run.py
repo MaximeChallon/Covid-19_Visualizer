@@ -11,4 +11,6 @@ st.title("Covid-19 vizualizer")
 data = load_data()
 st.write(data)
 
-st.write(line_plots(data))
+line_plots_general(data)
+
+line_plots_countries(data)
