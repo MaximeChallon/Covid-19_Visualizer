@@ -8,7 +8,4 @@ import os
 st.title("Covid-19 vizualizer")
 
 data = load_data()
-
 st.write(data)
-
-os.remove(DATA.replace('https://raw.githubusercontent.com/acorpus/CombinedCovid/master/', ''))

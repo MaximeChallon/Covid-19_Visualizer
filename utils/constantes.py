@@ -1,17 +1,18 @@
 from datetime import date
 import datetime
 import os
+import requests
+import re
 
-# dataset
-try:
-    yesterday = date.today() - datetime.timedelta(1)
-    Date = yesterday.strftime("%m_%d_%y")
-    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
-    os.system('wget ' + DATA)
-    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
-except:
-    Today = date.today()
-    Date = Today.strftime("%m_%d_%y")
-    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
-    os.system('wget ' + DATA)
-    DATA = 'https://raw.githubusercontent.com/acorpus/CombinedCovid/master/time_series_covid19_combined_global_' + Date + '.csv'
+
+x = requests.get('https://github.com/acorpus/CombinedCovid')
+url = x.text
+with open('html.html', "w") as f:
+    f.write(url)
+with open('html.html', 'r') as f:
+    for ligne in f:
+        if "time_series_covid19_combined_global" in ligne:
+            FILE_NAME = re.sub(r'.*>([^<]+)<.*$',r'\1',ligne)
+            FILE_NAME = FILE_NAME.replace('\n', '')
+os.remove('html.html')
+DATA = "https://raw.githubusercontent.com/acorpus/CombinedCovid/master/" + FILE_NAME
