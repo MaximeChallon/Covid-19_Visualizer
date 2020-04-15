@@ -8,7 +8,12 @@ import streamlit as st
 ##############################################################################################
 
 
-def get_features_general(data) :
+def get_features_general(data):
+    """
+    Récupère les colonnes utilisées pour faire le graphique des données mondiales
+    :param data: DataFrame Pandas
+    :return: list
+    """
     feature_data = data.drop(columns=[
             "Date",
             "Country",
@@ -50,6 +55,11 @@ def generate_global_chart(
 
 
 def line_plots_general(data):
+    """
+    Créé un graphique pour les données mondiales
+    :param data: DataFrame Pandas
+    :return: None
+    """
     st.markdown("## Données mondiales")
     features = get_features_general(data)
     feature = st.selectbox(label="Choisir...", options=features)
@@ -73,7 +83,12 @@ def line_plots_general(data):
 ##############################################################################################
 
 
-def get_features_country(data) :
+def get_features_country(data):
+    """
+    Récupère les colonnes nécessaires pour le graphique des pays
+    :param data:  DataFrame Pandas
+    :return:  list
+    """
     feature_data = data.drop(columns=[
             "Date",
             "Country",
@@ -172,6 +187,7 @@ def line_plots_countries(data):
             color_title="Pays",
         )
         st.altair_chart(regional_chart)
+
 
 def line_plots(data):
     line_plots_general(data)

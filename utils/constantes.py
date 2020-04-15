@@ -4,7 +4,7 @@ import os
 import requests
 import re
 
-
+# processus permettant de récupérer le dernier fichier des données du dépôt ACorpus/CombinedCovid
 x = requests.get('https://github.com/acorpus/CombinedCovid')
 url = x.text
 with open('html.html', "w") as f:

@@ -64,7 +64,7 @@ def generate_regions_choropleth(
     return final_chart
 
 
-def choropleth_maps(data):
+def chloropleth_maps(data):
     st.title("Distribution géographique du Covid-19 dans le monde")
 
     st.markdown("Quel indicateur utiliser?")

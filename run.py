@@ -22,7 +22,7 @@ page = st.sidebar.selectbox(
 
 page_function_mapping: Dict[str, Callable[[pd.DataFrame], None]] = {
     "Graphiques temporels": line_plots,
-    "Distribution géographique ": choropleth_maps
+    "Distribution géographique ": chloropleth_maps
 }
 
 page_function_mapping[page](data)

@@ -9,6 +9,11 @@ import scipy
 
 
 def list_countries(data_path):
+    """
+    Récupère tous les pays disponibles dans le jeu de données
+    :param data_path: Pandas DataFrame
+    :return: list
+    """
     with open(data_path, 'r') as f:
         f_o = csv.reader(f)
         next(f_o)
@@ -59,6 +64,10 @@ def get_countries_metadata():
 
 
 def load_data():
+    """
+    Charge les données depuis le dépôt de acorpus et effectue un premier traitement des données avant de faire les jointures
+    :return: Pandas DataFrame pr à être utilisé dans l'application
+    """
     data = pd.read_csv(DATA)
     # suppression de deux colonnes inutiles (les GPS seront mis plus tard et plus précisément)
     del data['Lat']
