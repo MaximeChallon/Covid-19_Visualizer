@@ -50,22 +50,22 @@ def generate_global_chart(
 
 
 def line_plots_general(data):
+    st.markdown("## Données mondiales")
     features = get_features_general(data)
-    feature = st.selectbox(label=("Choisir..."), options=features)
+    feature = st.selectbox(label="Choisir...", options=features)
 
     # Group data by date
     general = data.groupby("Date", as_index=False).sum()
 
     # Choose log scale or linear, defines what feature to use
-    general_choice = st.radio(label=("Echelle"), options=[("Linéaire"), ("Logarithmique")])
-    if general_choice == ("Logarithmique"):
+    general_choice = st.radio(label="Echelle", options=["Linéaire", "Logarithmique"])
+    if general_choice == "Logarithmique":
         general = general[general[feature] > 0]
         general_scale = alt.Scale(type="log")
     else:
         general_scale = alt.Scale(type="linear")
 
-    st.markdown(("## " + ("Données mondiales")))
-    general_chart = generate_global_chart(general, feature, general_scale, ("Mois et jour"))
+    general_chart = generate_global_chart(general, feature, general_scale, "Mois et jour")
     st.altair_chart(general_chart)
 
 ##############################################################################################
@@ -138,12 +138,13 @@ def generate_regional_chart(
 
 
 def line_plots_countries(data):
+    st.markdown("## Données des pays")
     features = get_features_country(data)
-    feature = st.selectbox(label=("Choisir..."), options=features)
+    feature = st.selectbox(label="Choisir...", options=features)
     # Get list of regions and select the ones of interest
     region_options = data["Country"].sort_values().unique().tolist()
     regions = st.multiselect(
-        label=("Pays"),
+        label="Pays",
         options=region_options,
         default=["France", "Italy", "United States"],
     )
@@ -155,9 +156,9 @@ def line_plots_countries(data):
     else:
         selected_regions = regional_growth_factor(selected_regions, features)
         regional_choice = st.radio(
-            label=("Echelle pour les pays"), options=[("Linéaire"), ("Logarithmique")]
+            label="Echelle pour les pays", options=["Linéaire", "Logarithmique"]
         )
-        if regional_choice == ("Logarithmique"):
+        if regional_choice == "Logarithmique":
             selected_regions = selected_regions[selected_regions[feature] > 0]
             regional_scale = alt.Scale(type="log")
         else:
@@ -167,7 +168,11 @@ def line_plots_countries(data):
             selected_regions,
             feature,
             regional_scale,
-            x_title=("Mois et jour"),
-            color_title=("Pays"),
+            x_title="Mois et jour",
+            color_title="Pays",
         )
         st.altair_chart(regional_chart)
+
+def line_plots(data):
+    line_plots_general(data)
+    line_plots_countries(data)
