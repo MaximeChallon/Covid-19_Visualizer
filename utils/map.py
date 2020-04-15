@@ -14,17 +14,13 @@ def generate_regions_choropleth(
     title: str,
     width: int = 1000,
     height: int = 600,
-    log_scale: bool = True,
-    is_region: bool = True,
+    log_scale: bool = True
 ) -> alt.Chart:
-    if is_region:
-        shape = alt.topo_feature("https://raw.githubusercontent.com/MaximeChallon/Coviz-19/master/utilitaires/data/data_country.topo.json", "countries")
-    else:
-        shape = alt.topo_feature("https://raw.githubusercontent.com/MaximeChallon/Coviz-19/master/utilitaires/data/data_country.topo.json", "countries")
+    shape = alt.topo_feature("https://raw.githubusercontent.com/MaximeChallon/Coviz-19/master/utilitaires/data/data_country.topo.json", "countries")
 
-    area_name = "Country" if is_region else "Country"
-    lookup_in_shape = "Country" if is_region else "Country"
-    lookup_in_df = "Country" if is_region else "Country"
+    area_name = "Country"
+    lookup_in_shape = "Country"
+    lookup_in_df = "Country"
 
     chart_data = data[data[feature] > 0][[feature, lookup_in_df]]
 
@@ -36,7 +32,7 @@ def generate_regions_choropleth(
     scale = (
         alt.Scale(type="log", scheme="yelloworangered")
         if log_scale
-        else alt.Scale(type="linear", scheme="teals")
+        else alt.Scale(type="linear", scheme="yelloworangered")
     )
     color_chart = (
         alt.Chart(shape)
@@ -69,56 +65,41 @@ def generate_regions_choropleth(
 
 
 def choropleth_maps(data):
-    st.title("COVID-19 in Italy - Geographical distribution")
+    st.title("Distribution géographique du Covid-19 dans le monde")
 
-    map_scale = st.radio(
-        label="What resolution would you like to visualise?",
-        options=["Province", "Region"])
-    is_region = map_scale == "Region"
+    st.markdown("Quel indicateur utiliser?")
+    features = get_features_country(data)
+    feature = st.selectbox(label="Choisir", options=features)
 
-    if is_region:
-        st.markdown("What indicator would you like to visualise?")
-        features = get_features_country(data)
-        feature = st.selectbox(label="Choose...", options=features)
+    regional_choice = st.radio(
+        label=("Echelle pour le monde"), options=[("Linéaire"), ("Logarithmique")]
+    )
+    min_day = 0
 
-        is_growth_factor = st.checkbox(label="Growth factor of feature")
-        min_day = 0
-        log_scale = True
+    if regional_choice == "Linéaire":
+        log_scale = False
     else:
-        #data = get_province_data()
-        data.columns = [
-            "Cases" if feature == "Cases" else feature
-            for feature in data.columns
-        ]
-        feature = "Cases"
-
-        st.markdown("Only total cases and their growth factor are available at the province resolution.")
-        feature_str = st.selectbox(
-            label="What feature would you like to visualise?",
-            options=["Cases"],
-        )
-        min_day = 0
         log_scale = True
 
     # Date selection
     data["days_passed"] = data["Date"].apply(lambda x: (x - datetime.date(2020, 1, 22)).days)
     # data["days_passed"] = data['Date'].sub(data['First_Date'], axis=0)
     n_days = data["days_passed"].unique().shape[0] - 1
-    st.markdown("Choose what date to visualise as the number of days elapsed since the first data collection, on 24th February:")
+    st.markdown("Choisir le jour à visualiser depuis le 22 janvier 2020.")
     chosen_n_days = st.slider(
-        "Days:", min_value=min_day, max_value=n_days, value=n_days,
+        "Jours:", min_value=min_day, max_value=n_days, value=n_days,
     )
     st.markdown(
-        ("Chosen date: "
+        ("Date choisie: "
             + f"{datetime.date(2020, 1, 22) + datetime.timedelta(days=chosen_n_days)}"
         )
     )
     day_data = data[data["days_passed"] == chosen_n_days]
 
     if day_data.empty:
-        st.warning("No information is available for the selected date")
+        st.warning("Aucune information disponible pour la date sélectionnée.")
     else:
         choropleth = generate_regions_choropleth(
-            day_data, feature, "Country", log_scale=log_scale, is_region=is_region
+            day_data, feature, "Country", log_scale=log_scale
         )
         st.altair_chart(choropleth)
