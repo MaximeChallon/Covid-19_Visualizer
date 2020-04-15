@@ -6,14 +6,23 @@ from utils.data_source import *
 from utils.map import *
 from utils.constantes import *
 import os
+from typing import Dict, Callable
 
-st.title("Covid-19 vizualizer")
 
 data = load_data()
-st.write(data)
 
-line_plots_general(data)
+st.sidebar.title("Covid-19 Visualizer")
+page = st.sidebar.selectbox(
+    label="Sommaire",
+    options=[
+        "Graphiques temporels",
+        "Distribution géographique ",
+    ],
+)
 
-line_plots_countries(data)
+page_function_mapping: Dict[str, Callable[[pd.DataFrame], None]] = {
+    "Graphiques temporels": line_plots,
+    "Distribution géographique ": choropleth_maps
+}
 
-choropleth_maps(data)
+page_function_mapping[page](data)
