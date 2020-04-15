@@ -18,7 +18,8 @@ def get_features_general(data) :
             "New_Cases_per_10000",
             "New_Deaths_per_10000",
             "Cases_per_10000",
-            "Deaths_per_10000"])
+            "Deaths_per_10000",
+            "First_Date"])
     return feature_data.columns.tolist()
 
 
@@ -76,7 +77,8 @@ def get_features_country(data) :
     feature_data = data.drop(columns=[
             "Date",
             "Country",
-            "Population"])
+            "Population",
+            "First_Date"])
     return feature_data.columns.tolist()
 
 

@@ -64,7 +64,8 @@ def load_data():
     del data['Lat']
     del data['Long']
     # conversion de la chaîne date en datetime
-    data['Date'] = pd.to_datetime(data['Date'])
+    data['Date'] = pd.to_datetime(data['Date']).apply(lambda x: x.date())
+    data['First_Date'] = pd.to_datetime("2020-01-22")
     # remplissage des valeurs vides de la colonne des régions avec les valeurs de la colonne pays
     data.loc[(pd.isnull(data.Province_State)), 'Province_State'] = data.Country_Region
     # remplissage des autres valeurs vides
