@@ -132,4 +132,37 @@ def load_data():
 
 def show_data(data):
     st.markdown("## Données utilisées dans cette application")
-    st.write(load_data())
+
+    feature_data = data.drop(columns=[
+        "Date",
+        "Country",
+        "Population",
+        "First_Date"])
+    features = feature_data.columns.tolist()
+    feature = st.multiselect(
+        label="Données à afficher",
+        options=features,
+        default=["Cases", "Deaths"]
+    )
+
+    pays_options = data["Country"].sort_values().unique().tolist()
+    pays = st.multiselect(
+        label="Pays à sélectionner",
+        options=pays_options,
+        default=["France", "Italy"]
+    )
+
+    toutes_colonnes  = data.columns.to_list()
+    colonnes_selectionnees = []
+    for feature in feature:
+        colonnes_selectionnees.append(feature)
+    colonnes_selectionnees.append('Country')
+    colonnes_selectionnees.append('Date')
+    for colonne in toutes_colonnes:
+        if colonne not in colonnes_selectionnees:
+            del data[colonne]
+
+
+    data = data[data['Country'].isin(pays)]
+
+    st.dataframe(data.reset_index(drop=True))
