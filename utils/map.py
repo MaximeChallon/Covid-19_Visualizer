@@ -16,7 +16,7 @@ def generate_regions_choropleth(
     height: int = 600,
     log_scale: bool = True
 ) -> alt.Chart:
-    shape = alt.topo_feature("https://raw.githubusercontent.com/MaximeChallon/Coviz-19/master/utilitaires/data/data_country.topo.json", "countries")
+    shape = alt.topo_feature("https://raw.githubusercontent.com/MaximeChallon/Covid-19_Visualizer/master/data/data_country.topo.json", "countries")
 
     area_name = "Country"
     lookup_in_shape = "Country"
