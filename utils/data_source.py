@@ -128,3 +128,8 @@ def load_data():
     data['Deaths_per_10000'] = data['Deaths'] * 10000 / data['Population']
 
     return data
+
+
+def show_data(data):
+    st.markdown("## Données utilisées dans cette application")
+    st.write(load_data())
