@@ -157,7 +157,7 @@ def line_plots_countries(data):
         regional_choice = st.radio(
             label=("Echelle pour les pays"), options=[("Linéaire"), ("Logarithmique")]
         )
-        if regional_choice == ("logarithmic"):
+        if regional_choice == ("Logarithmique"):
             selected_regions = selected_regions[selected_regions[feature] > 0]
             regional_scale = alt.Scale(type="log")
         else:
